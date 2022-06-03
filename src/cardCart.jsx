@@ -9,16 +9,19 @@ const cardCart = () => {
         </div>
         <p className="text-sm -mt-10">Caracteristica</p>
         <div className="flex items-between justify-between">
-          <label className="text-sm align-middle" htmlFor="Qtd.">
-            Qtd.
+          <label className="text-sm flex" htmlFor="Qtd.">
+            Qtd
+            <button className="font-bold border-2 border-black">-</button>
             <input
-              className="w-10 text-center rounded"
+              className="w-10 text-center border-2 border-black"
               type="number"
               nome="qtd"
               min="1"
               max="500"
               step="1"
+              value="1"
             ></input>
+            <button className="font-bold border-2 border-black">+</button>
           </label>
           <button className="bg-gray-900 text-white p-1 rounded font-bold text-sm">
             Remove

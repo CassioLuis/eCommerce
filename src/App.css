@@ -63,3 +63,16 @@
   #filho{
     opacity: ;
   } */
+
+  input[type="number"]{
+    -moz-appearance: textfield;
+    /* border: none; */
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button
+  {
+    -webkit-appearance: none;
+  }
+  input[type="number"]:focus{
+    border: none;
+  }
