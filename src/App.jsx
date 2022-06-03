@@ -4,7 +4,7 @@ import Cardcart from "./cardCart.jsx";
 const navBar = () => {
   return (
     <div className="h-full flex flex-col">
-      <nav className="bg-gray-400 h-[10vh] flex center items-center justify-between px-5 grid-cols-full">
+      <nav className="bg-gray-400 h-[10vh] flex items-center justify-between px-5 grid-cols-full">
         <div className="flex">
           <button className="drop-shadow-md bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
             Botao
@@ -66,7 +66,7 @@ const navBar = () => {
               <p className="text-sm text-gray text-top -mt-2">
                 Frete e impostos calculados no fechamento da compra
               </p>
-              <button className="bg-gray-600 text-white font-bold w-full p-1">
+              <button className="bg-gray-900 text-white font-bold w-full p-1">
                 Concluir Compra
               </button>
               <p className="text-sm text-gray text-center">
@@ -75,6 +75,11 @@ const navBar = () => {
             </div>
           </div>
         </aside>
+      </div>
+      <div id="pai" className="bg-gray-600/[.54] h-full w-full fixed flex justify-center items-center hidden">
+        <div id="filho" className="text-white bg-gray-600 h-[50vh] w-[50vw] p-6">
+          asdasdasd
+        </div>
       </div>
     </div>
   );
