@@ -1,86 +1,44 @@
 import "./App.css";
-import Cardcart from "./cardCart.jsx";
+import Modal from "./modal.jsx"
+import Aside from "./carrinho.jsx"
+import Cardproduto from "./cardProduto.jsx";
+import Item from "./produtos.json"
 
 const navBar = () => {
   return (
     <div className="h-full flex flex-col">
-      <nav className="bg-gray-400 h-[10vh] flex items-center justify-between px-5 grid-cols-full">
+      <nav className="bg-gray-400 h-[10vh] w-full flex items-center justify-between px-5 ">
         <div className="flex">
-          <button className="drop-shadow-md bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
+          <button className="bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
             Botao
           </button>
-          <button className="drop-shadow-md bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
+          <button className="bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
             Botao
           </button>
-          <button className="drop-shadow-md bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
+          <button className="bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
             Botao
           </button>
         </div>
         <div className="flex">
-          <button className="drop-shadow-md bg-gray-300 rounded-full flex content-center mx-2 px-4 py-2">
+          <button className="bg-gray-300 rounded-full flex content-center mx-2 px-4 py-2">
             a
           </button>
         </div>
       </nav>
-      <div className="h-[90vh] bg-gray-100 flex">
-        <div className="flex flex-col w-[70vw]">
+      <div className="bg-gray-100 flex overflow-x-hidden">
+        <div className="flex flex-col w-full overflow-y-auto overflow-x-hidden">
           <header className="flex items-center bg-gray-300 px-10 py-5 h-[10vh] w-full">
             Produtos
           </header>
-          <main className="b g-gray-200 h-[90vh] w-full py-5 px-10">
-            asdasd
+          <main className="g-gray-200 py-6 px-52 grid grid-cols-4 gap-4 justify-center grid-flow-row">
+            {Item.produtos.map((item, index) => {
+              return <Cardproduto valor={item} />;
+            })}
           </main>
         </div>
-        <aside className="flex bg-gray-200 h-full w-[30vw] flex-col">
-          <div className="h-[80vh] overflow-auto p-6">
-            <div className="flex justify-between">
-              <h2>Carrinho</h2>
-              <button>X</button>
-            </div>
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-            <Cardcart />
-          </div>
-          <div className="h-[20vh] border-t-2 border-indigo-500 p-6 flex">
-            <div className="w-full flex flex-col justify-between">
-              <div className="flex justify-between">
-                <p className="font-bold">Subtotal</p>
-                <p className="font-bold">R$ 500,00</p>
-              </div>
-              <p className="text-sm text-gray text-top -mt-2">
-                Frete e impostos calculados no fechamento da compra
-              </p>
-              <button className="bg-gray-900 text-white font-bold w-full p-1">
-                Concluir Compra
-              </button>
-              <p className="text-sm text-gray text-center">
-                ou Continuar Comprando ->
-              </p>
-            </div>
-          </div>
-        </aside>
+        <Aside />
       </div>
-      <div id="pai" className="bg-gray-600/[.54] h-full w-full fixed flex justify-center items-center hidden">
-        <div id="filho" className="text-white bg-gray-600 h-[50vh] w-[50vw] p-6">
-          asdasdasd
-        </div>
-      </div>
+      <Modal />
     </div>
   );
 };

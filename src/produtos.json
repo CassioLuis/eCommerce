@@ -1,0 +1,94 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 2,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 4,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Branca",
+      "preco": "20,25",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_980712-MLB49144682826_022022-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    },
+    {
+      "id": 3,
+      "tipo": "Camiseta",
+      "marca": "Polo",
+      "cor": "Preto",
+      "preco": "100,50",
+      "tamanho": "G",
+      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+    }
+  ]
+}
