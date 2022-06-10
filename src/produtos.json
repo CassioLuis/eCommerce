@@ -1,94 +1,74 @@
 {
-  "produtos": [
+  "filmes": [
     {
       "id": 1,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+      "titulo": "Borat",
+      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
     },
     {
-      "id": 2,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+      "id": 1,
+      "titulo": "Borat",
+      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
     },
     {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+      "id": 1,
+      "titulo": "Borat",
+      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
     },
     {
-      "id": 4,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Branca",
-      "preco": "20,25",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_980712-MLB49144682826_022022-O.webp"
+      "id": 1,
+      "titulo": "Borat",
+      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
     },
     {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
-    },
-    {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
-    },
-    {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
-    },
-    {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
-    },
-    {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
-    },
-    {
-      "id": 3,
-      "tipo": "Camiseta",
-      "marca": "Polo",
-      "cor": "Preto",
-      "preco": "100,50",
-      "tamanho": "G",
-      "link": "https://http2.mlstatic.com/D_NQ_NP_931123-MLB43754964366_102020-O.webp"
+      "id": 1,
+      "titulo": "Borat",
+      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
     }
   ]
 }

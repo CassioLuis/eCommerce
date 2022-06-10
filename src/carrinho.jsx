@@ -2,7 +2,7 @@ import Cardcart from "./cardCart.jsx";
 
 const aside = () => {
   return (
-    <aside className="flex bg-gray-200 h-full w-[800px] flex-col ">
+    <aside className="flex bg-gray-200 h-full w-[800px] flex-col hidden">
       <div className="h-[80vh] overflow-auto p-6">
         <div className="flex justify-between">
           <h2>Carrinho</h2>
