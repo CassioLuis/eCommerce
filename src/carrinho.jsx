@@ -1,19 +1,42 @@
+import React from "react";
 import Cardcart from "./cardCart.jsx";
 
 const aside = () => {
+
+  const produtos = [
+    {
+      'nome': "Homem-aranha",
+      price: 100.00
+    }, {
+      nome: "Homem-aranha",
+      price: 100.00
+    }, {
+      nome: "Homem-aranha",
+      price: 100.00
+    }, {
+      nome: "Homem-aranha",
+      price: 100.00
+    }, {
+      nome: "Homem-aranha",
+      price: 100.00
+    }, {
+      nome: "Homem-aranha",
+      price: 100.00
+    }
+  ]
+
   return (
-    <aside className="flex bg-gray-200 h-full w-[800px] flex-col hidden">
+    <aside className="carrinho flex bg-gray-200 h-full w-[600px] flex-col">
       <div className="h-[80vh] overflow-auto p-6">
         <div className="flex justify-between">
           <h2>Carrinho</h2>
           <button>X</button>
         </div>
-        <Cardcart />
-        <Cardcart />
-        <Cardcart />
-        <Cardcart />
-        <Cardcart />
-        <Cardcart />
+        {
+          produtos.map((nome, index) => {
+            return <Cardcart key={index} nome={nome.nome} price={nome.price} />
+          })
+        }
       </div>
       <div className="h-[200px] border-t border-gray-300 p-6 flex">
         <div className="w-full flex flex-col justify-between">
@@ -27,9 +50,9 @@ const aside = () => {
           <button className="bg-gray-900 text-white font-bold w-full p-1">
             Concluir Compra
           </button>
-          <a href="#" className="text-sm text-gray text-center">
+          <p className="text-sm text-gray text-center">
             ou Continuar Comprando
-          </a>
+          </p>
         </div>
       </div>
     </aside>

@@ -1,9 +1,9 @@
 {
-  "filmes": [
+  "filmes_list": [
     {
       "id": 1,
-      "titulo": "Borat",
-      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
       "censura": "livre",
       "categoria": "comedia",
       "quality": ["hd", "full-hd", "quad-hd"],
@@ -12,12 +12,12 @@
         "full-hd": 20,
         "quad-hd": 35
       },
-      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
     },
     {
       "id": 1,
-      "titulo": "Borat",
-      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
       "censura": "livre",
       "categoria": "comedia",
       "quality": ["hd", "full-hd", "quad-hd"],
@@ -26,12 +26,12 @@
         "full-hd": 20,
         "quad-hd": 35
       },
-      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
     },
     {
       "id": 1,
-      "titulo": "Borat",
-      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
       "censura": "livre",
       "categoria": "comedia",
       "quality": ["hd", "full-hd", "quad-hd"],
@@ -40,12 +40,12 @@
         "full-hd": 20,
         "quad-hd": 35
       },
-      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
     },
     {
       "id": 1,
-      "titulo": "Borat",
-      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
       "censura": "livre",
       "categoria": "comedia",
       "quality": ["hd", "full-hd", "quad-hd"],
@@ -54,12 +54,12 @@
         "full-hd": 20,
         "quad-hd": 35
       },
-      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
     },
     {
       "id": 1,
-      "titulo": "Borat",
-      "subTitulo": "o segundo melhor reporter do glorioso pais cazaquistao viaja a america",
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
       "censura": "livre",
       "categoria": "comedia",
       "quality": ["hd", "full-hd", "quad-hd"],
@@ -68,7 +68,63 @@
         "full-hd": 20,
         "quad-hd": 35
       },
-      "img": "https://play-lh.googleusercontent.com/tdIhEqcqU-Yn-QOFKMwBdxbbTYsZ7xDIYBtZF33BxPPm5ErURpaZX4uG25cVDDEmdAGr"
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
+    },
+    {
+      "id": 1,
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
+    },
+    {
+      "id": 1,
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
+    },
+    {
+      "id": 1,
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
+    },
+    {
+      "id": 1,
+      "titulo": "Homem-Aranha",
+      "subTitulo": "Sem Volta para Casa",
+      "censura": "livre",
+      "categoria": "comedia",
+      "quality": ["hd", "full-hd", "quad-hd"],
+      "preco": {
+        "hd": 10,
+        "full-hd": 20,
+        "quad-hd": 35
+      },
+      "img": "https://play-lh.googleusercontent.com/DYkDjvdlR4asxPTaVmk_wsgcKkoTNXfEY6q_U9JbR69gVbmw5fua2w6qR3637OpYVSu-LJNU7RVO0P-uOok=w240-h480-rw"
     }
   ]
 }

@@ -1,54 +1,41 @@
-import "./App.css";
-import Modal from "./modal.jsx"
-import Aside from "./carrinho.jsx"
-import Cardproduto from "./cardProduto.jsx";
+import React from 'react'
+import './App.css'
+import Modal from './modal.jsx'
+import Carrinho from './carrinho.jsx'
+import Cardproduto from './cardProduto.jsx'
+// import { useTransition } from 'react-transition-state'
 
-const navBar = () => {
+export default function navBar() {
+
+  // const [state, toggle] = useTransition({
+  //   timeout: 150,
+  //   preEnter: true,
+  // });
+
   return (
-    <div className="h-full flex flex-col">
-      <nav className="bg-gray-400 h-[10vh] w-full flex items-center justify-between px-5 ">
-        {/* <div className="flex">
-          <button className="bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
-            Botao
-          </button>
-          <button className="bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
-            Botao
-          </button>
-          <button className="bg-gray-300 rounded flex content-center mx-2 px-4 py-2">
-            Botao
-          </button>
-        </div>
-        <div className="flex">
-          <button className="bg-gray-300 rounded-full flex content-center mx-2 px-4 py-2">
-            a
-          </button>
-        </div> */}
+
+    <div className="h-[100vh] flex flex-col" >
+      <nav id='tamanho' className="bg-gray-400 h-[10vh] px-5 flex justify-end items-center">
+        <input
+          // onClick={() => toggle()}
+          type="button"
+          value="Carrinho"
+          className='bg-orange-400 cursor-pointer hover:bg-orange-500 transition-all p-2 rounded' />
       </nav>
-      <div className="bg-gray-100 flex overflow-x-hidden">
-        <div className="flex flex-col w-full overflow-y-auto overflow-x-hidden">
-          <header className="flex items-center bg-gray-300 px-10 py-5 h-[10vh] w-full">
+      <div className="bg-gray-100 flex overflow-x-hidden relative h-full">
+        <div className="flex flex-col w-full overflow-y-auto">
+          <header className="bg-gray-300 px-10 py-5 h-[5vh] leading-3">
             Filmes
           </header>
-          {/* <main className="py-6 px-52 grid grid-cols-4 gap-4 justify-center grid-flow-row">
-            {Item.filmes.map((item, index) => {
-              return <Cardproduto filme={item} />;
-            })}
-          </main> */}
-          <Cardproduto/>
+          <div>
+            <Cardproduto />
+          </div>
         </div>
-        <Aside />
+        {/* <div className={`carrinho ${state}`}> */}
+        <Carrinho />
+        {/* </div> */}
       </div>
       <Modal />
-    </div>
-  );
-};
-
-export default navBar;
-
-// 494,66 x 961 com varios
-// 478,66 x 787,5 com varios
-// 461,66 x 200
-
-// 500,33 x 887,14 com poucos
-// 484,33 x 725,94 com poucos
-// 467,33 x 200
+    </div >
+  )
+}

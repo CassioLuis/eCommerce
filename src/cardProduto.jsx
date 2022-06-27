@@ -1,25 +1,28 @@
-import Filmes from "./produtos.json";
+import React from "react";
+
+import Filmes from './produtos.json'
 
 const cardProduto = () => {
   return (
-    <div className="container-filmes py-6 justify-center grid grid-cols-4 gap-1">
-      {Filmes.filmes.map((item, index) => {
+    <div className="container-filmes pt-6 px-[2vw] justify-center grid gap-5 grid-cols-auto-fit">
+      {Filmes.filmes_list.map((item, index) => {
+        // const select = (el) => document.querySelector(el);
         return (
-          <div className="container-filme p-3 w-full flex flex-col justify-between hover:drop-shadow-sm transition ease-in-out border">
-            <div className="w-full h-[190px]  rounded flex justify-center">
-              <img src={item.img} alt="" className="w-full object-cover" />
+          <div
+            key={index}
+            className="cardProduto container-filme p-3 w-full flex flex-col justify-center items-center hover:drop-shadow-sm border cursor-pointer"
+          >
+            <img src={item.img} alt="" className="" />
+            <div className="flex justify-center flex-col">
+              <h1 className="text-center font-bold">{item.titulo}</h1>
+              <h1 className="text-center text-sm mb-2">{item.subTitulo}</h1>
+              {/* <p className="">{item.categoria}</p> */}
             </div>
-            <div className="flex justify-between">
-              <h1 className="">{item.titulo}</h1>
-              <p className="">{item.categoria}</p>
-            </div>
-            <h1 className="text-sm">{item.subTitulo}</h1>
-            <button
-              onClick={console.log("clicou")}
-              className="bg-gray-900 text-white font-bold w-full rounded p-1"
+            {/* <button onClick={clique}
+              className="botaoAlugar bg-gray-900 text-white font-bold w-full rounded p-1"
             >
               Alugar
-            </button>
+            </button> */}
           </div>
         );
       })}
