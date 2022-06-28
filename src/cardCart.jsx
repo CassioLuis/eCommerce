@@ -1,33 +1,53 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
 // import Incrementdecrement from "./Incrementdecrement";
 
 const cardCart = ({ nome }) => {
 
-  const inputValue = (el) => document.querySelector(el);
+  // const inputValue = (el) => document.querySelector(el);
   // console.log(inputValue(".content").value);
 
-  const increment = () => {
-    if (inputValue(".content").value < 5) inputValue(".content").value++;
+  const decrement = (e) => {
+    if (e.value > 1) e.value--;
   }
-  const decrement = () => {
-    if (inputValue(".content").value > 1) inputValue(".content").value--;
+  const increment = (e) => {
+    if (e.value < 5) e.value++;
   }
 
+
   // const convertPrice = price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-  const [imputValue, setImputValue] = useState()
-  // const [unitPrice, setUnitPrice] = useState(price)
+  // let valor = document.querySelector(".content").value
+
+  // const [unitPrice, setUnitPrice] = useState(
+  //   [
+  //     {
+  //       nome: nome,
+  //       price: setUnitPrice(price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) * valor)
+  //     }
+  //   ])
   // console.log(unitPrice);
-  console.log(imputValue);
+  // const [inputValue, setInputValue] = useState(1)
+  // const decrement = (e) => {
+  //   console.log(e);
+  //   if (e.nextElementSibling > 1) {
+  //     setInputValue(-1);
+  //   }
+  // }
+  // const increment = (e) => {
+  //   console.log(e);
+  //   if (e.previousElementSibling < 5) {
+  //     setInputValue(+1);
+  //   }
+  // }
 
 
   return (
-    <div className="h-[180px] w-full flex border-b border-gray-300 py-6">
+    <div className="pai h-[180px] w-full flex border-b border-gray-300 py-6">
       <div className="rounded bg-gray-200 border border-gray-300 h-full w-48"></div>
       <div className="w-full h-full flex pl-3 flex-col justify-between items-between">
-        <div className="flex justify-between">
+        <div className="price flex justify-between">
           <p>{nome}</p>
-          <p>{imputValue}</p>
+          <p>100</p>
         </div>
         <p className="text-sm -mt-10">Caracteristica</p>
         <div className="flex items-between justify-between">
@@ -37,19 +57,19 @@ const cardCart = ({ nome }) => {
                 className="decrement w-5 cursor-pointer ease-in duration-200 bg-orange-400 hover:bg-orange-500 rounded text-l font-bold"
                 type="button"
                 value="-"
-                onClick={decrement}
+                onClick={e => decrement(e.target.nextElementSibling)}
               />
               <input
                 className="content focus:outline-none text-center w-10 bg-orange-400 border-x border-orange-600 mx-1 font-bold"
                 type="number"
                 value="1"
                 readOnly
-                onChange={e => setImputValue(e.target.value)} />
+              />
               <input
                 className="increment w-5 cursor-pointer ease-in duration-200 bg-orange-400 hover:bg-orange-500 rounded text-l font-bold"
                 type="button"
                 value="+"
-                onClick={increment}
+                onClick={e => increment(e.target.previousElementSibling)}
               />
             </div >
           </label>

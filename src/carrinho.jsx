@@ -34,7 +34,7 @@ const aside = () => {
         </div>
         {
           produtos.map((nome, index) => {
-            return <Cardcart key={index} nome={nome.nome} price={nome.price} />
+            return <Cardcart key={index} nome={nome.nome} cod={index} price={nome.price} />
           })
         }
       </div>
